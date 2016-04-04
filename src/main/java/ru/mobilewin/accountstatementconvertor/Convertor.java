@@ -90,8 +90,8 @@ public class Convertor extends JFrame {
 
     private void chooseFilesMouseClicked(ActionEvent e) {
 
-//        String workingDir = System.getProperty("user.dir");
-        String workingDir = "D:\\Win\\Convertor\\file\\in\\src";
+        String workingDir = System.getProperty("user.dir");
+//        String workingDir = "D:\\Win\\Convertor\\file\\in\\src";
         JFileChooser fileChooser = new JFileChooser(workingDir);
         FileFilter filter = new FileNameExtensionFilter("Excel workbook", "xlsx", "xlsb");
         fileChooser.addChoosableFileFilter(filter);
